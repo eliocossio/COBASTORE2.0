@@ -207,26 +207,26 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat (5,1fr);
         grid-template-areas:
-        "menunov"
-        "titulonov"
-        "prinov"
-        "textonov"
-        "footernov";
+        "menupro"
+        "titulopro"
+        "pripro"
+        "textopro"
+        "footerpro";
     }
-.menunov{
-    grid-area: menunov;
+.menupro{
+    grid-area: menupro;
 }
-.titulonov{
-    grid-area: titulonov;
+.titulopro{
+    grid-area: titulopro;
 }
-.prinov{
-    grid-area: prinov;
+.pripro{
+    grid-area: pripro;
 }
 .textonov{
-    grid-area: textonov;
+    grid-area: textopro;
 }
 .footernov{
-    grid-area: footernov;
+    grid-area: footerpro;
 }
     
 }
